@@ -1,0 +1,82 @@
+{
+  "Products": [
+    {
+      "name": "Enrichment",
+      "link": "#"
+    },
+    {
+      "name": "Discovery",
+      "link": "#"
+    },
+    {
+      "name": "Watchlist",
+      "link": "#"
+    },
+    {
+      "name": "Prospector",
+      "link": "#"
+    },
+    {
+      "name": "Salesforce",
+      "link": "#"
+    },
+    {
+      "name": "Sheets",
+      "link": "#"
+    }
+  ],
+  "Information": [
+    {
+      "name": "Pricing",
+      "link": "#"
+    },
+    {
+      "name": "Status",
+      "link": "#"
+    },
+    {
+      "name": "Support",
+      "link": "#"
+    },
+    {
+      "name": "Documentation",
+      "link": "#"
+    }
+  ],
+  "Company": [
+    {
+      "name": "About",
+      "link": "#"
+    },
+    {
+      "name": "Blog",
+      "link": "#"
+    },
+    {
+      "name": "Jobs",
+      "link": "#"
+    },
+    {
+      "name": "Twitter",
+      "link": "#"
+    },
+    {
+      "name": "Facebook",
+      "link": "#"
+    }
+  ],
+  "Legal": [
+    {
+      "name": "Claim",
+      "link": "#"
+    },
+    {
+      "name": "Privacy",
+      "link": "#"
+    },
+    {
+      "name": "Terms",
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+.signup {
+  background-color: #fff;
+  border: 0;
+  border-radius: 6px;
+  color: #448a90;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 1rem 3rem;
+  transition: 150ms all; }
+  .signup:hover {
+    background-color: #f7f7f7;
+    transform: translateY(-0.125rem); }
+
+body {
+  background-color: #fff;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif; }
+  body .fade-in-hidden {
+    opacity: 0; }
+  body .fade-in-show {
+    opacity: 1;
+    transition: 3s ease-in-out; }
+  @media (max-width: 900px) {
+    body .order-1 {
+      order: 1; }
+    body .order-2 {
+      order: 2; }
+    body .two-column {
+      flex-flow: row wrap; }
+      body .two-column .left, body .two-column .right {
+        width: 100%; }
+    body #testimonial {
+      background-image: none !important;
+      text-align: center; } }
+  @media (max-width: 900px) and (max-width: 900px) {
+    body #testimonial {
+      min-height: 200px; } }
+  @media (max-width: 900px) and (max-width: 599px) {
+    body #testimonial {
+      min-height: 300px; } }
+  @media (max-width: 900px) {
+      body #testimonial .testimonial {
+        margin-top: 0; } }
+  body .module {
+    padding: 3rem 0; }
+  body .content {
+    margin: auto;
+    padding: 0 7.5rem;
+    position: relative;
+    max-width: 1400px; }
+    @media (max-width: 900px) {
+      body .content {
+        padding: 0 3rem; } }
+    @media (max-width: 599px) {
+      body .content {
+        padding: 0 1rem; } }
+  body .reduced-width {
+    margin: auto;
+    width: 75%; }
+    @media screen and (max-width: 900px) {
+      body .reduced-width {
+        width: 100%; } }
+  body .half {
+    width: 50%; }
+    @media (max-width: 900px) {
+      body .half {
+        width: 100%; } }
+  body .whole {
+    width: 100%; }
+  body .align-center {
+    text-align: center; }
+  body .flex {
+    display: flex; }
+    @media (max-width: 900px) {
+      body .flex {
+        flex-flow: row wrap; } }
+  body .vertical-align-top {
+    align-items: top; }
+  body .vertical-align-center {
+    align-items: center; }
+  body .margin-bottom-3 {
+    margin-bottom: 3rem; }
+  body .margin-top-3 {
+    margin-top: 3rem; }
+  body .testimonial {
+    float: right;
+    margin-top: 3rem;
+    position: relative; }
+  body .partner-logo {
+    height: 50px;
+    max-width: 200px; }
+    body .partner-logo > img {
+      height: 100%;
+      max-width: 100%; }
+  body a {
+    color: #448a90;
+    display: inline-flex;
+    text-decoration: none; }
+  body strong {
+    color: #448a90; }
+  body h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 0; }
+  body h2 {
+    font-size: 2rem;
+    font-weight: 600; }
+  body h3 {
+    font-size: 1.5rem;
+    font-weight: 600; }
+  body p {
+    line-height: 1.75rem; }
+    body p:not(:last-child) {
+      margin-bottom: 2rem; }
+  body #hero p {
+    font-size: 1.125rem;
+    font-weight: 600; }
+  body .quote {
+    font-size: 1.5rem;
+    line-height: 2.25rem; }
+  body img {
+    max-width: 100%; }
+  body hr {
+    border: 0;
+    border-top: 1px solid #bcbcbc;
+    margin: auto;
+    max-width: 1400px; }
+    @media (max-width: 1450px) {
+      body hr {
+        margin: 0 7.5rem; } }
+
+header {
+  background: #fff;
+  left: 0;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+  header .logo {
+    align-items: center;
+    display: inline-flex;
+    transition: 150ms all; }
+    header .logo:hover {
+      color: #56bec8;
+      transform: translateY(-0.125rem); }
+    header .logo .icon {
+      margin-right: 0.75rem;
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      border-radius: 0.3125rem;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05); }
+      header .logo .icon .icon-left {
+        background-color: #81dfe4;
+        display: block;
+        width: 1rem;
+        height: 2rem; }
+      header .logo .icon::before, header .logo .icon::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        right: 0; }
+      header .logo .icon::before {
+        top: 0;
+        background-color: #448a90; }
+      header .logo .icon::after {
+        bottom: 0;
+        background-color: #56bec8; }
+    header .logo .text {
+      font-size: 1.125rem; }
+    header .logo p {
+      margin: 0; }
+  header div {
+    align-items: center;
+    color: #448a90;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1400px; }
+    @media (max-width: 1450px) {
+      header div {
+        margin: 0 3rem; } }
+    header div nav {
+      align-self: center;
+      max-width: 675px; }
+      header div nav ul {
+        align-items: center;
+        flex-flow: row wrap;
+        list-style-type: none;
+        margin: 0;
+        padding: 0; }
+        header div nav ul li {
+          cursor: pointer;
+          display: inline-block;
+          text-align: center;
+          transition: 150ms all; }
+          header div nav ul li .hover-icon {
+            margin-left: 10px;
+            transform: rotate(90deg); }
+          header div nav ul li:not(:first-child) {
+            margin-left: 2rem; }
+          header div nav ul li#login {
+            border: 1px solid #448a90;
+            border-radius: 6px;
+            padding: 0.5rem 2rem; }
+          header div nav ul li:hover {
+            border-color: #56bec8;
+            transform: scale(1.1); }
+            header div nav ul li:hover a {
+              color: #56bec8; }
+
+section#hero {
+  background-image: linear-gradient(to right, #62cebb, #46a1bb);
+  color: #fff;
+  overflow: hidden;
+  min-height: 450px;
+  padding: 6.25rem 0 0; }
+
+section#partners {
+  background-color: #f7f7f7; }
+  section#partners .content {
+    justify-content: space-between; }
+
+section#enrichment, section#reveal {
+  background-image: linear-gradient(to right, #461f6a, #59c0be);
+  color: #fff; }
+
+section#testimonial {
+  background-color: #dfd8d5;
+  background-image: url("/assets/testimonial_background.png");
+  background-repeat: no-repeat;
+  background-position-x: 20%; }
+  section#testimonial > div {
+    position: relative; }
+  @media (min-width: 901px) {
+    section#testimonial {
+      min-height: 300px; }
+      section#testimonial > div {
+        position: absolute; } }
+
+section #additional-info {
+  border: 2px solid #c1e8ef;
+  border-radius: 6px;
+  margin: auto;
+  max-width: 650px;
+  padding: 1rem; }
+  section #additional-info .logo {
+    align-items: center;
+    display: inline-flex; }
+    section #additional-info .logo .icon {
+      margin-right: 0.75rem;
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      border-radius: 0.3125rem;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05); }
+      section #additional-info .logo .icon .icon-left {
+        background-color: #81dfe4;
+        display: block;
+        width: 1rem;
+        height: 2rem; }
+      section #additional-info .logo .icon::before, section #additional-info .logo .icon::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        right: 0; }
+      section #additional-info .logo .icon::before {
+        top: 0;
+        background-color: #448a90; }
+      section #additional-info .logo .icon::after {
+        bottom: 0;
+        background-color: #56bec8; }
+    section #additional-info .logo .text {
+      font-size: 1.125rem; }
+    section #additional-info .logo p {
+      margin: 0; }
+
+section#signup {
+  background-image: url("/assets/map-bg.jpg");
+  background-repeat: no-repeat; }
+  section#signup form {
+    background-color: #fff;
+    border: 2px solid #448a90;
+    border-radius: 6px;
+    display: inline-flex;
+    margin: auto;
+    max-width: 500px;
+    padding: 0.2rem; }
+    section#signup form input {
+      background-color: #ffffff;
+      border-color: #ffffff;
+      border-style: solid;
+      border-width: 1px;
+      color: #12424A;
+      font-size: calc(1.25rem * 0.8);
+      min-width: 240px;
+      outline: none;
+      padding: 14px;
+      width: 100%; }
+    section#signup form .submit {
+      background-color: #fff;
+      border: 0;
+      border-radius: 6px;
+      color: #fff;
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      white-space: nowrap;
+      background-color: #448a90;
+      transition: 150ms all; }
+      section#signup form .submit:hover {
+        background-color: #56bec8; }
+
+footer {
+  background-color: #222c33;
+  color: #7f8993; }
+  footer .logo {
+    align-items: center;
+    display: inline-flex; }
+    footer .logo .icon {
+      margin-right: 0.75rem;
+      width: 2rem;
+      height: 2rem;
+      display: block;
+      border-radius: 0.3125rem;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.05); }
+      footer .logo .icon .icon-left {
+        background-color: #81dfe4;
+        display: block;
+        width: 1rem;
+        height: 2rem; }
+      footer .logo .icon::before, footer .logo .icon::after {
+        content: '';
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        right: 0; }
+      footer .logo .icon::before {
+        top: 0;
+        background-color: #448a90; }
+      footer .logo .icon::after {
+        bottom: 0;
+        background-color: #56bec8; }
+    footer .logo .text {
+      font-size: 1.125rem; }
+    footer .logo p {
+      margin: 0; }
+  footer > div {
+    align-items: top !important;
+    justify-content: space-between; }
+  footer h4 {
+    font-weight: 500;
+    margin: 0;
+    text-transform: uppercase; }
+  footer a {
+    color: #56b8ae; }
+  footer .category {
+    display: flex;
+    flex-flow: column wrap; }
+    footer .category a {
+      margin-top: 1rem; }
+  footer hr {
+    margin-top: 3rem; }
+  footer .text {
+    margin-right: 0.5rem; }
+  footer p {
+    font-size: 0.875rem; }
+  footer .signin, footer .signup {
+    background-color: #fff;
+    border: 0;
+    border-radius: 6px;
+    color: #448a90;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border: 1px solid #448a90;
+    padding: 0.5rem 1rem; }
+  footer .signin {
+    background: transparent;
+    margin-right: 1rem; }
+  footer .signup {
+    background-color: #c1e8ef; }
