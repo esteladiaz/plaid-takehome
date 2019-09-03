@@ -9,7 +9,7 @@
     "nodemon": "^1.19.1"
   },
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon -e *",
     "start": "node index.js",
     "scss": "node-sass -w scss/ -o css/"
   }
